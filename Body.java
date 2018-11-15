@@ -6,7 +6,7 @@ public class Body{
   double[] accVector;
   double[] speedVector;
   public Body(double x,double y, double size, double mass, boolean moveable){
-    pos[] = {x,y};
+    pos = new double[]{x,y};
     this.size = size;
     this.mass = mass;
     this.moveable = moveable;
