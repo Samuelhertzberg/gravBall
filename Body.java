@@ -50,4 +50,8 @@ public class Body{
   public int drawMass(){
     return (int)mass;
   }
+
+  public boolean canMove(){
+    return moveable;
+  }
 }
